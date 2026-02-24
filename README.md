@@ -6,16 +6,11 @@
 
 
 
-— A lightweight LLM runtime for RTX 4060, powered by 4-bit NF4 quantization.
 
-[Link to Model (Hugging Face)](https://huggingface.co/Local-Novel-LLM-project/Vecteus-v1)
 
-### Features
-
+こっから下は無視しな
 * **Instant Environment** — Fully containerized via Docker (Ubuntu 22.04 + CUDA 12.3.2).
 * **Interactive Chat Loop** — Keeps the model loaded in memory to avoid reloading on each message.
-* **Japanese Native Support** — `ja_JP.UTF-8` pre-configured for Japanese-proficient Vecteus-v1.
-* **NormalFloat 4 Optimization** — Specifically tuned for 8GB VRAM limits using `bitsandbytes`.
 
 
 
